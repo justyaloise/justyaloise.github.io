@@ -1,0 +1,9 @@
+# Ignore folders
+Japan-web/
+olednintendo-switch.github.io/
+
+# Common ignore patterns
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
