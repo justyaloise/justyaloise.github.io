@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../Downloads/WebDev"
+		},
+		{
+			"name": "justyaloise.github.io",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "justyaloise.github.io"
+	}
+}
