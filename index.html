@@ -283,6 +283,86 @@
       transform: translateX(-50%) translateY(-5px);
       box-shadow: 0 0 15px #ff004c;
     }
+
+    /* ================= MOBILE RESPONSIVE FIX ================= */
+@media (max-width: 768px) {
+
+  header {
+    padding: 15px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 5px 10px;
+    font-size: 14px;
+  }
+
+  section {
+    padding: 100px 5%;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .hero-left img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-right h1 {
+    font-size: 32px;
+  }
+
+  .hero-right p {
+    font-size: 16px;
+  }
+
+  .cta {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  /* PROJECTS */
+  .proj-box {
+    width: 100%;
+    max-width: 460px;
+  }
+
+  .proj-box img {
+    height: 200px;
+  }
+
+  /* SKILLS SECTION FIX */
+  #skills > div {
+    gap: 50px !important;
+  }
+
+  #skills img {
+    width: 50px !important;
+  }
+
+  /* TEXT */
+  .section-title {
+    font-size: 28px;
+  }
+
+}
   </style>
 </head>
 
